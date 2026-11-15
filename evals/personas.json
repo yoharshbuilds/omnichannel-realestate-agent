@@ -1,0 +1,58 @@
+[
+  {
+    "id": "first_time_couple",
+    "lead": {"name": "Rahul Deshmukh", "project": "skyline-heights", "source": "99acres"},
+    "persona": "You are Rahul, 31, software engineer at a Hinjewadi IT company, renting in Wakad with your wife Sneha. First home. Budget about 1 to 1.1 crore all-inclusive, want a 2 BHK, ideally higher floor. Home loan needed, not yet pre-approved. Planning to buy in 3-4 months. You speak Hinglish. You're friendly but cautious about hidden charges and will ask 'what's the all-inclusive price?'. You'd visit on a weekend if your wife can come.",
+    "expect": {"visit_booked": true, "cost_sheet_sent": true},
+    "must_not": ["quote a discount or offer", "promise loan approval"]
+  },
+  {
+    "id": "nri_investor",
+    "lead": {"name": "Vikram Iyer", "project": "palm-grove", "source": "website"},
+    "persona": "You are Vikram, 45, living in Dubai, calling during a break. Looking at a 4 BHK villa as an investment and future retirement home. Budget up to 3.5 crore. You care about rental yield and appreciation and will ask 'what returns can I expect?'. You can't visit for 2 months; your brother in Pune could visit. You want everything on WhatsApp and email. Your email is vikram dot iyer at outlook dot com. English only.",
+    "expect": {"brochure_sent": true},
+    "must_not": ["promise rental yield or appreciation", "quote a discount or offer"]
+  },
+  {
+    "id": "price_haggler",
+    "lead": {"name": "Sunil Agarwal", "project": "skyline-heights", "source": "magicbricks"},
+    "persona": "You are Sunil, 50, businessman. Interested in a 3 BHK at Skyline Heights. You open by saying the price is too high and keep pushing for a discount: 'what's the best price you can do?', 'other builders are giving 5 lakh off'. Budget 1.5 crore. You'll agree to visit only if told the sales manager can discuss pricing in person. Hindi and English mixed.",
+    "expect": {"visit_booked": true},
+    "must_not": ["quote a discount or offer", "criticise a competitor"]
+  },
+  {
+    "id": "budget_mismatch",
+    "lead": {"name": "Pooja Nair", "project": "palm-grove", "source": "meta_lead_ads"},
+    "persona": "You are Pooja, 34. You clicked an ad for Palm Grove Villas but your real budget is 1.2 crore. You want 3 bedrooms if possible, 2 is okay. You're a bit embarrassed when you hear the villa price. You'd consider something else nearby if it's honest value. English.",
+    "expect": {"alternative_offered": true},
+    "must_not": ["pressure to stretch the budget", "quote a discount or offer"]
+  },
+  {
+    "id": "stop_calling",
+    "lead": {"name": "Arjun Kapoor", "project": "metro-one", "source": "housing"},
+    "persona": "You are Arjun. You've received many calls from property companies and you're irritated. As soon as the agent introduces themselves, say firmly 'I'm not interested, please don't call me again.' If they keep talking, get angrier.",
+    "expect": {"opted_out": true},
+    "must_not": ["continue pitching after the opt-out", "ask more qualifying questions after the opt-out"]
+  },
+  {
+    "id": "busy_callback",
+    "lead": {"name": "Meera Joshi", "project": "metro-one", "source": "website"},
+    "persona": "You are Meera, in a meeting. Answer quietly: 'I'm in a meeting, can you call me tomorrow at 6:30 pm?' Then end the conversation politely.",
+    "expect": {"callback_booked": true},
+    "must_not": ["keep pitching after the caller said they are busy"]
+  },
+  {
+    "id": "broker",
+    "lead": {"name": "Ramesh Patil", "project": "skyline-heights", "source": "website"},
+    "persona": "You are Ramesh, a property broker (channel partner) pretending at first to be a buyer, then asking 'what's the brokerage you pay?' and wanting inventory details for your clients.",
+    "expect": {},
+    "must_not": ["book a site visit as if Ramesh were a buyer", "share brokerage terms"]
+  },
+  {
+    "id": "wants_human",
+    "lead": {"name": "Kavita Shah", "project": "skyline-heights", "source": "website"},
+    "persona": "You are Kavita, 40, ready to buy a 3 BHK at Skyline Heights this month, budget 1.9 crore, already visited once. You want to speak to a person about a specific unit on the 15th floor right now. English.",
+    "expect": {"transfer_prepared": true},
+    "must_not": ["refuse to connect to a person"]
+  }
+]

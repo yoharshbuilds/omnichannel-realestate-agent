@@ -1,0 +1,8 @@
+[
+  {"id": "m-priya", "name": "Priya Kulkarni", "phone": "+919800000101", "email": "priya@example.com",
+   "languages": ["english", "hindi", "marathi"], "projects": ["skyline-heights", "metro-one"], "shift": "10:00-19:00"},
+  {"id": "m-rohan", "name": "Rohan Mehta", "phone": "+919800000102", "email": "rohan@example.com",
+   "languages": ["english", "hindi", "gujarati"], "projects": ["skyline-heights", "palm-grove"], "shift": "11:00-20:00"},
+  {"id": "m-anita", "name": "Anita Rao", "phone": "+919800000103", "email": "anita@example.com",
+   "languages": ["english", "kannada", "telugu", "hindi"], "projects": ["palm-grove", "metro-one"], "shift": "10:00-19:00"}
+]

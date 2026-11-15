@@ -1,0 +1,30 @@
+{
+  "_note": "Sample pricing for a demo. Stamp duty, registration and GST rates must be confirmed for the client's state and project before use.",
+  "skyline-heights": {
+    "charges": {"floor_rise_psf": 40, "floor_rise_from": 5, "parking": 400000, "gst_pct": 5,
+                "stamp_duty_pct": 6, "registration_pct": 1, "registration_cap": 30000,
+                "maintenance_deposit": 120000, "legal_charges": 25000},
+    "unit_types": [
+      {"config": "2 BHK", "carpet_sqft": 780, "base_rate_psf": 12200, "floors": [2, 22], "facing": ["east", "west"], "available": 34},
+      {"config": "3 BHK", "carpet_sqft": 1240, "base_rate_psf": 13300, "floors": [3, 22], "facing": ["east", "north"], "available": 12}
+    ]
+  },
+  "palm-grove": {
+    "charges": {"floor_rise_psf": 0, "floor_rise_from": 99, "parking": 0, "gst_pct": 0,
+                "stamp_duty_pct": 6, "registration_pct": 1, "registration_cap": 30000,
+                "maintenance_deposit": 300000, "legal_charges": 35000},
+    "unit_types": [
+      {"config": "3 BHK villa", "carpet_sqft": 1850, "base_rate_psf": 11350, "floors": [0, 0], "facing": ["east", "north"], "available": 6},
+      {"config": "4 BHK villa", "carpet_sqft": 2900, "base_rate_psf": 11720, "floors": [0, 0], "facing": ["east"], "available": 3}
+    ]
+  },
+  "metro-one": {
+    "charges": {"floor_rise_psf": 30, "floor_rise_from": 6, "parking": 300000, "gst_pct": 5,
+                "stamp_duty_pct": 6, "registration_pct": 1, "registration_cap": 30000,
+                "maintenance_deposit": 60000, "legal_charges": 20000},
+    "unit_types": [
+      {"config": "1 BHK", "carpet_sqft": 450, "base_rate_psf": 12200, "floors": [1, 18], "facing": ["west"], "available": 21},
+      {"config": "2 BHK", "carpet_sqft": 720, "base_rate_psf": 12360, "floors": [1, 18], "facing": ["east", "west"], "available": 9}
+    ]
+  }
+}

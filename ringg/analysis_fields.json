@@ -1,0 +1,23 @@
+[
+  {"key": "customer_name", "type": "string", "description": "Caller's name as they said it"},
+  {"key": "language", "type": "string", "description": "Main language the caller used: english, hindi, marathi, kannada, tamil, telugu, gujarati"},
+  {"key": "interested_project", "type": "string", "description": "Project the caller is most interested in: Skyline Heights, Palm Grove Villas, Metro One, or empty"},
+  {"key": "budget", "type": "string", "description": "Budget as stated, e.g. '1.2 crore' or '70-80 lakh'; empty if not shared"},
+  {"key": "bhk_preference", "type": "string", "description": "Configuration wanted, e.g. 2 BHK, 3 BHK villa"},
+  {"key": "preferred_location", "type": "string", "description": "Area the caller prefers or works in"},
+  {"key": "purchase_timeline", "type": "string", "description": "When they plan to buy, in their words normalised: immediate, 1 month, 3 months, 6 months, next year, just exploring"},
+  {"key": "purpose", "type": "string", "description": "self-use or investment"},
+  {"key": "decision_maker_present", "type": "string", "description": "yes if the caller decides (alone or with someone on the call), no if someone else decides, both if spouse or family will decide together"},
+  {"key": "loan_status", "type": "string", "description": "pre-approved, needed, not needed, self-funded, or unknown"},
+  {"key": "objections", "type": "string", "description": "Concerns raised, comma-separated short phrases, e.g. 'price, possession date'"},
+  {"key": "wants_brochure", "type": "boolean", "description": "True if the caller asked for or agreed to receive the brochure"},
+  {"key": "email", "type": "string", "description": "Email address the caller confirmed, exactly as confirmed; empty if none"},
+  {"key": "site_visit_datetime", "type": "string", "description": "Agreed site visit as ISO date-time, empty if none"},
+  {"key": "visit_confirmed", "type": "boolean", "description": "Concierge calls only: true if the caller confirmed the existing visit"},
+  {"key": "visit_feedback", "type": "string", "description": "Post-visit calls only: what they liked and disliked, one or two sentences"},
+  {"key": "next_step", "type": "string", "description": "One of: visit, revisit, negotiation, booking, callback, nurture, not_interested"},
+  {"key": "callback_requested", "type": "boolean", "description": "True if the caller asked to be called back"},
+  {"key": "not_interested", "type": "boolean", "description": "True if the caller clearly isn't buying (bought elsewhere, dropped the plan)"},
+  {"key": "opt_out", "type": "boolean", "description": "True if the caller asked not to be called or messaged again"},
+  {"key": "lead_temperature", "type": "string", "description": "hot = visit booked or buying within 3 months; warm = interested, later timeline; cold = not interested"}
+]
