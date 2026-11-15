@@ -1,8 +1,17 @@
-# Real-estate presales agent on Ringg AI
+# Omnichannel real-estate agent
 
-**An AI voice + WhatsApp sales team for Indian property developers.** It calls every new enquiry within a
-minute, qualifies the buyer, quotes from live inventory, sends the brochure and a personalised cost sheet on
-WhatsApp, books the site visit, makes sure the visit happens, and hands hot leads to a human sales manager.
+**An AI sales team for Indian property developers that works across phone calls, WhatsApp and email, all
+sharing one memory of each lead.** It calls every new enquiry within a minute, qualifies the buyer, quotes from
+live inventory, sends the brochure and a personalised cost sheet on WhatsApp or email, answers WhatsApp replies,
+books the site visit, makes sure the visit happens, and hands hot leads to a human sales manager.
+
+| Channel | What the agent does there |
+|---|---|
+| **Voice** (Ringg AI) | Speed-to-lead calls, inbound hotline, visit reconfirmation, post-visit feedback, reactivation |
+| **WhatsApp** | Brochure, cost sheet, location pin, visit reminders with buttons, replies turned into actions |
+| **Email** | Project details and brochure, alerts to the sales team |
+
+A reply on any channel moves the same lead forward, and an opt-out on any channel stops all of them.
 
 Ringg AI runs the conversations. This service is everything around them: lead intake, the follow-up
 cadence, live inventory and pricing, cost-sheet PDFs, site-visit reminders, WhatsApp replies, handoffs

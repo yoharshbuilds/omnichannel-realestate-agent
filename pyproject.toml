@@ -1,5 +1,5 @@
 [project]
-name = "realestate-voice-agent"
+name = "omnichannel-realestate-agent"
 version = "0.1.0"
 description = "Integration service for a Ringg AI real-estate sales voice agent: brochure on WhatsApp, details by email, site visits, post-call CRM sync."
 requires-python = ">=3.12"

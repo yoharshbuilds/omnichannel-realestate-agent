@@ -181,7 +181,7 @@ Run each step and look at what changed.
 
 **Terminal 1: start the server**
 ```bash
-cd /Users/harshshah/Desktop/tagging/realestate-voice-agent && cp -n .env.example .env; uv run uvicorn app.main:app --reload
+cp -n .env.example .env; uv run uvicorn app.main:app --reload
 ```
 
 **Terminal 2:**

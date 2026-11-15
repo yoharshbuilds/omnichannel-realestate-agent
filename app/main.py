@@ -1,4 +1,4 @@
-"""Real-estate presales agent: the integration service around Ringg.
+"""Omnichannel real-estate agent: the integration service around Ringg.
 
 /tools/*        Ringg API tools (pre-call and on-call)
 /webhooks/*     Ringg call events, WhatsApp inbound
@@ -30,7 +30,7 @@ async def lifespan(_: FastAPI):
             await loop
 
 
-app = FastAPI(title="Real-estate presales agent", lifespan=lifespan)
+app = FastAPI(title="Omnichannel real-estate agent", lifespan=lifespan)
 (ROOT / "static" / "cost_sheets").mkdir(parents=True, exist_ok=True)
 app.mount("/static", StaticFiles(directory=ROOT / "static"), name="static")
 for r in (tools.router, webhooks.router, leads.router, admin.router):
